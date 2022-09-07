@@ -4,21 +4,21 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxc35991576e736584",
+  APP_ID: "wxf8f3bf43f6c06b54",
 
   // 公众号APP_SECRET
-  APP_SECRET: "db28f4120d087bc809b42454610d0f74",
+  APP_SECRET: "156f370b1972f7f4981b3727d8cbe905",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "宝宝",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "oBG7a5xTR6YIVRzLRWwtnYUjYyjw",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "cC5IhFwzC4cUh0H6XXnfd67I7XQ341y6KnRX1o1HOBA",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://www.weibo.com/"
    *   }, 
@@ -27,15 +27,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "要",
+      name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ok85-5_IGuOB9nv8ZcsbMuk68ttg",
+      id: "oBG7a5xTR6YIVRzLRWwtnYUjYyjw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	7zdf4fFLeSPGJfDH0ufNnpHCrliAaL8HcE555LCunhU",
+      useTemplateId: "cC5IhFwzC4cUh0H6XXnfd67I7XQ341y6KnRX1o1HOBA",
       // 所在省份
-      province: "安徽",
+      province: "陕西",
       // 所在城市
-      city: "合肥",
+      city: "渭南",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://www.bilibili.com"
     } 
@@ -54,7 +54,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oPrjH6ImDiXbObWdbiVQtAB7PuoQ",
+      id: "oBG7a50IpWeuFUAoA8uqz6DDgNPU",
     }, 
   ],
     
@@ -75,10 +75,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "张小🐖", "year": "1999", "date": "09-18"},
-    {"type": "节日", "name": "相识纪念日", "year": "2018", "date": "04-26"},
-    {"type": "生日", "name": "小王", "year": "1997", "date": "11-01"},
-    {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "07-04"},
+    {"type": "生日", "name": "香宝宝", "year": "2002", "date": "12-24"},
+  //  {"type": "节日", "name": "相识纪念日", "year": "2018", "date": "04-26"},//
+    {"type": "生日", "name": "臭宝宝", "year": "2002", "date": "08-26"},
+    {"type": "节日", "name": "在一起纪念日", "year": "2019", "date": "01-21"},
   ],
 
   /**
@@ -96,7 +96,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-07-04"},
+    {"keyword": "love_day", date: "2019-01-21"},
     // 结婚纪念日
  //   {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
@@ -114,13 +114,13 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "爱你爱你爱你！"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+    //  "遇见你，就好像捡到了100斤的运气",
     ]},
   ],
 
@@ -128,7 +128,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "小说"
 
 
 }
